@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f017d1547cff5105021cc88f36d43a1" label="HC Medical Devices" max_length="40" name="x_1132366_healthca_medical_devices" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Device Name" max_length="100" name="device_name" type="string"/>
+        <element choice="1" label="Device Status" max_length="40" name="device_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="Inactive"/>
+                <element inactive_on_update="false" label="Under Maintenence" sequence="2" value="Under Maintenence"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="3" value="Decommissioned"/>
+            </choice>
+        </element>
+        <element choice="1" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="HC Cardiac Equipment" sequence="0" value="HC Cardiac Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Cardiac Equipment" sequence="1" value="Cardiac Equipment"/>
+                <element inactive_on_update="false" label="HC Diagnostic Equipment" sequence="1" value="HC Diagnostic Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Diagnostic Equipment" sequence="2" value="Diagnostic Equipment"/>
+                <element inactive_on_update="false" label="HC Health Information Technology (HIT)" sequence="2" value="HC Health Information Technology (HIT)"/>
+                <element inactive_on_update="false" label="HC Imaging Equipment" sequence="3" value="HC Imaging Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Health Information Technology (HIT)" sequence="3" value="Health Information Technology (HIT)"/>
+                <element inactive_on_update="false" label="HC Infusion Device" sequence="4" value="HC Infusion Device"/>
+                <element inactive="true" inactive_on_update="true" label="Imaging Equipment" sequence="4" value="Imaging Equipment"/>
+                <element inactive_on_update="false" label="HC IT Equipment" sequence="5" value="HC IT Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Infusion Device" sequence="5" value="Infusion Device"/>
+                <element inactive_on_update="false" label="HC Mobility Aids" sequence="6" value="HC Mobility Aids"/>
+                <element inactive="true" inactive_on_update="true" label="Mobility Aids" sequence="6" value="Mobility Aids"/>
+                <element inactive_on_update="false" label="HC Monitoring Equipment" sequence="7" value="HC Monitoring Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Monitoring Equipment" sequence="7" value="Monitoring Equipment"/>
+                <element inactive_on_update="false" label="HC Respiratory Equipment" sequence="8" value="HC Respiratory Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Respiratory Equipment" sequence="8" value="Respiratory Equipment"/>
+                <element inactive_on_update="false" label="HC Surgical Equipment" sequence="9" value="HC Surgical Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="IT Equipment" sequence="9" value="IT Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Surgical Equipment" sequence="10" value="Surgical Equipment"/>
+            </choice>
+        </element>
+        <element label="Installation Date" max_length="40" name="installation_date" type="glide_date"/>
+        <element label="Last Maintenance Date" max_length="40" name="last_maintenance_date" type="glide_date"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element choice="1" label="Maintenance Schedule" max_length="40" name="maintenance_schedule" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="0" value="Daily"/>
+                <element inactive_on_update="false" label="Weekly" sequence="1" value="Weekly"/>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="2" value="Bi-Weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="3" value="Monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="4" value="Quarterly"/>
+                <element inactive_on_update="false" label="Semi-Annually" sequence="5" value="Semi-Annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="6" value="Annually"/>
+            </choice>
+        </element>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Training Documents" max_length="40" name="training_documents" type="file_attachment"/>
+        <element label="Training Required" max_length="40" name="training_required" type="boolean"/>
+        <element label="User Instructions" max_length="40" name="user_instructions" type="string"/>
+        <element label="User Manual" max_length="40" name="user_manual" type="file_attachment"/>
+        <element label="Warranty Expiration Date" max_length="40" name="warranty_expiration_date" type="glide_date"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

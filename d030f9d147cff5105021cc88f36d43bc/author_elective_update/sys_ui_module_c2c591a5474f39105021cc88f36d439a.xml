@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="HC Change Management">cac591a5474f39105021cc88f36d4397</application>
+        <filter/>
+        <name>HC Change Managements</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1132366_healthca.hc_change_management_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 09:30:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2c591a5474f39105021cc88f36d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HC Change Managements</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_ui_module_c2c591a5474f39105021cc88f36d439a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 09:30:34</sys_updated_on>
+        <table>x_1132366_healthca_hc_change_management</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_ui_module_c2c591a5474f39105021cc88f36d439a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HC Change Management">cac591a5474f39105021cc88f36d4397</application><filter/><name>HC Change Managements</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1132366_healthca.hc_change_management_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 09:30:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c2c591a5474f39105021cc88f36d439a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HC Change Managements</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_ui_module_c2c591a5474f39105021cc88f36d439a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 09:30:34</sys_updated_on><table>x_1132366_healthca_hc_change_management</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1111108362</payload_hash>
+        <record_name>HC Change Managements</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 09:30:34</sys_created_on>
+        <sys_id>42c591a5474f39105021cc88f36d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5836c7470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 09:30:34</sys_updated_on>
+        <type>Module</type>
+        <update_guid>86c591a5544f39106245b3a34724859b</update_guid>
+        <update_guid_history>86c591a5544f39106245b3a34724859b:1111108362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 09:40:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>6ecd545368964cbd86e0688f06088421</sys_id>
+        <sys_metadata>c2c591a5474f39105021cc88f36d439a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HC Change Managements</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_c2c591a5474f39105021cc88f36d439a</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_c2c591a5474f39105021cc88f36d439a">42c591a5474f39105021cc88f36d439c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 09:40:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

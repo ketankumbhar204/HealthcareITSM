@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="HealthcareITSM">b5d1bd1547cff5105021cc88f36d4372</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Incident Managements</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1132366_healthca_incident_management</name>
+        <order>10</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:09:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4265f4e147cb39105021cc88f36d430e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incident Managements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_app_module_4265f4e147cb39105021cc88f36d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:19:03</sys_updated_on>
+        <timeline_page/>
+        <title>Incident Managements</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_app_module_4265f4e147cb39105021cc88f36d430e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HealthcareITSM">b5d1bd1547cff5105021cc88f36d4372</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Incident Managements</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1132366_healthca_incident_management</name><order>10</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 07:09:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4265f4e147cb39105021cc88f36d430e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Incident Managements</sys_name><sys_overrides/><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_app_module_4265f4e147cb39105021cc88f36d430e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 07:19:03</sys_updated_on><timeline_page/><title>Incident Managements</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>966256257</payload_hash>
+        <record_name>Incident Managements</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:19:03</sys_created_on>
+        <sys_id>a3a730a547cb39105021cc88f36d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57be5f3d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:19:03</sys_updated_on>
+        <type>Module</type>
+        <update_guid>aba730a5b6cb3910dc274a026fa4f540</update_guid>
+        <update_guid_history>aba730a5b6cb3910dc274a026fa4f540:966256257,5067782534cb3910e3fd526534c58ad0:-1628895100,c4863c2586cb39102935a1d3f59bdc47:-1870048753,4a65f4e170cb391055b08d89b915be0f:1386104908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Incident Managements">8318b8a547cb39105021cc88f36d435d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:20:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2935ead468b749b295629104be34d444</sys_id>
+        <sys_metadata>4265f4e147cb39105021cc88f36d430e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Managements</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_app_module_4265f4e147cb39105021cc88f36d430e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4265f4e147cb39105021cc88f36d430e">a3a730a547cb39105021cc88f36d4341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:20:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

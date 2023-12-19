@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1132366_healthca.hc_support-team-lead" name="x_1132366_healthca.hc_support-team-lead">8f099ea9474379105021cc88f36d4312</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 14:25:27</sys_created_on>
+        <sys_id>6d4912e9474379105021cc88f36d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8f099ea9474379105021cc88f36d4312</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6d4912e9474379105021cc88f36d438a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 14:25:27</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

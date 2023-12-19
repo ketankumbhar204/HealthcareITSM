@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1132366_healthca_incident_management</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 06:53:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9ae242d478b39105021cc88f36d439e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_app_module_c9ae242d478b39105021cc88f36d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 06:59:26</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_app_module_c9ae242d478b39105021cc88f36d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1132366_healthca_incident_management</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 06:53:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c9ae242d478b39105021cc88f36d439e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_app_module_c9ae242d478b39105021cc88f36d439e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 06:59:26</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1142541427</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 06:59:26</sys_created_on>
+        <sys_id>0833b42147cb39105021cc88f36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57ac6a410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 06:59:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0033b4214fcb3910d916e53bebe61a47</update_guid>
+        <update_guid_history>0033b4214fcb3910d916e53bebe61a47:-1142541427,9ff238211bcb3910ee48894274c079e2:-1803784149,e3d17c2ddd8b39101ffa23bd5da6ec08:-1142541427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">80a3786147cb39105021cc88f36d43b2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:01:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5b8d0669f8a4404c9f5d88b4b8cacb90</sys_id>
+        <sys_metadata>c9ae242d478b39105021cc88f36d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_app_module_c9ae242d478b39105021cc88f36d439e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c9ae242d478b39105021cc88f36d439e">0833b42147cb39105021cc88f36d4347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:01:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

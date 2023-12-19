@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>impact</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HC Set priority on impach Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var urgency = g_form.getValue('urgency');
+    var impact = g_form.getValue('impact');
+
+    if (urgency == '3' && impact == '3') {
+        g_form.setValue('priority', '5');
+    }
+    if (urgency == '3' && impact == '2') {
+        g_form.setValue('priority', 4);
+    }
+    if (urgency == '3' && impact == '1') {
+        g_form.setValue('priority', 3);
+    }
+    if (urgency == '2' && impact == '3') {
+        g_form.setValue('priority', 4);
+    }
+    if (urgency == '2' && impact == '2') {
+        g_form.setValue('priority', 3);
+    }
+    if (urgency == '2' && impact == '1') {
+        g_form.setValue('priority', 2);
+    }
+    if (urgency == '1' && impact == '3') {
+        g_form.setValue('priority', 3);
+    }
+    if (urgency == '1' && impact == '2') {
+        g_form.setValue('priority', 2);
+    }
+    if (urgency == '1' && impact == '1') {
+        g_form.setValue('priority', 1);
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 08:35:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b4c13864707f9105021cc88f36d437b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HC Set priority on impach Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_script_client_9b4c13864707f9105021cc88f36d437b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 08:39:52</sys_updated_on>
+        <table>x_1132366_healthca_hc_incident_management</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

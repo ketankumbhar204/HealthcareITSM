@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_1132366_healthca_incident_management</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:09:08</sys_created_on>
+        <sys_id>5a65b8e147cb39105021cc88f36d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1132366_healthca_incident_management</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>ua_table_licensing_config_5a65b8e147cb39105021cc88f36d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:09:08</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>ua_table_licensing_config_5a65b8e147cb39105021cc88f36d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="DELETE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_1132366_healthca_incident_management</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 07:09:08</sys_created_on><sys_id>5a65b8e147cb39105021cc88f36d4388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1132366_healthca_incident_management</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>ua_table_licensing_config_5a65b8e147cb39105021cc88f36d4388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 07:09:08</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1070169570</payload_hash>
+        <record_name>x_1132366_healthca_incident_management</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 07:20:57</sys_created_on>
+        <sys_id>9718b8a547cb39105021cc88f36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57c01e070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 07:20:57</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>db18b8a515cb3910f777e4344da5439f</update_guid>
+        <update_guid_history>db18b8a515cb3910f777e4344da5439f:-1070169570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 08:04:24</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>730f2ee45b0e49ccb86ba8fdeec4d6a4</sys_id>
+        <sys_metadata>5a65b8e147cb39105021cc88f36d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1132366_healthca_incident_management</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_5a65b8e147cb39105021cc88f36d4388</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_5a65b8e147cb39105021cc88f36d4388">9718b8a547cb39105021cc88f36d43a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 08:04:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

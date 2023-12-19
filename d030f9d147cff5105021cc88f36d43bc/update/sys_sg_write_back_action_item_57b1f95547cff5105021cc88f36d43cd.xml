@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Training Programs)</name>
+        <parameter_screen/>
+        <query_condition table="x_1132366_healthca_training_programs">sys_idSTARTSWITH{{Training Programs sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Training Programs sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 16:54:14</sys_created_on>
+        <sys_id>57b1f95547cff5105021cc88f36d43cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Training Programs)</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_57b1f95547cff5105021cc88f36d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 16:54:14</sys_updated_on>
+        <table>x_1132366_healthca_training_programs</table>
+        <template>number={{Training Programs number}}^training_title={{Training Programs training_title}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=57b1f95547cff5105021cc88f36d43cd"/>
+</record_update>

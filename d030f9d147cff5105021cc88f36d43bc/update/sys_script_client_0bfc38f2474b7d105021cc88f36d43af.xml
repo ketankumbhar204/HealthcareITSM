@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>HC check if Heart Rate Discrepancy  Details field is not emty id device is Heart monitoring device.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HC Guide usr fr  Heart Rate Discrepancy </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var deviceSysId = g_form.getValue('medical_device');
+
+    alert("deviceSysId : " + deviceSysId);
+
+    var ga = new GlideAjax('hcCheckDeviceName');
+    ga.addParam('sysparm_name', 'checkDeviceName');
+    ga.addParam('sysparm_sys_id', deviceSysId);
+
+    ga.getXML(function(response) {
+		g_form.addInfoMessage('Inside getXML');
+        var answer = response.responseXML.documentElement.getAttribute('answer');
+
+        g_form.addInfoMessage("Client script HC Guide usr fr  Heart Rate Discrepancy says answer : " + answer);
+
+        if (answer === "true") {
+            if (g_form.getValue('heart_rate_discrepancy_details') === ""){
+ 				g_form.addInfoMessage("Provide Heart Rate Discrepancy  Details");
+                g_form.addInfoMessage("Test3");
+                g_form.setAbortAction(true);
+            } else {
+               g_form.submit();
+            }
+        } else {
+            g_form.submit();
+        }
+
+    });
+
+
+
+    return true;
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 05:35:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bfc38f2474b7d105021cc88f36d43af</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>HC Guide usr fr  Heart Rate Discrepancy </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_script_client_0bfc38f2474b7d105021cc88f36d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 08:11:31</sys_updated_on>
+        <table>x_1132366_healthca_hc_incident_management</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

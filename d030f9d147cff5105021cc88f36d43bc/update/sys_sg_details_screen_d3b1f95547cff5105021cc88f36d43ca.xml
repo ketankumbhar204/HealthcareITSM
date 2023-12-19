@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description>This is demo application implement ITSM process Training Programs</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Plus">4bb1b99147cff5105021cc88f36d43f5</icon>
+        <name>Details</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 16:54:14</sys_created_on>
+        <sys_id>d3b1f95547cff5105021cc88f36d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_sg_details_screen_d3b1f95547cff5105021cc88f36d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 16:54:14</sys_updated_on>
+        <table>x_1132366_healthca_training_programs</table>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3b1f95547cff5105021cc88f36d43ca"/>
+</record_update>

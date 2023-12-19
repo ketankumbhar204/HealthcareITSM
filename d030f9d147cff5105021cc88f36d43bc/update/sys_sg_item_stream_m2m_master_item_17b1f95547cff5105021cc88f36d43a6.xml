@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Medical Devices Item Stream">5bb1f95547cff5105021cc88f36d43a4</item_stream>
+        <master_item display_value="Medical Devices master_item">1bb1f95547cff5105021cc88f36d43a5</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 16:54:14</sys_created_on>
+        <sys_id>17b1f95547cff5105021cc88f36d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_17b1f95547cff5105021cc88f36d43a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 16:54:14</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b4891de9474f39105021cc88f36d437c" sys_domain="global" table="x_1132366_healthca_hc_change_management" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d891de9474f39105021cc88f36d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Change request" display_value="Change request" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">8d891de9474f39105021cc88f36d439e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41891de9474f39105021cc88f36d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Impact" display_value="Impact" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">c1891de9474f39105021cc88f36d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89891de9474f39105021cc88f36d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Assignment" display_value="Assignment" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">01891de9474f39105021cc88f36d43a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41891de9474f39105021cc88f36d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Planning" display_value="Planning" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">09891de9474f39105021cc88f36d4396</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89891de9474f39105021cc88f36d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">45891de9474f39105021cc88f36d439a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05891de9474f39105021cc88f36d4396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">45891de9474f39105021cc88f36d4392</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd891de9474f39105021cc88f36d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1132366_healthca_hc_change_management" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">b4891de9474f39105021cc88f36d437c</sys_ui_form>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_1132366_healthca_hc_change_management" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">3c891de9474f39105021cc88f36d437e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1132366_healthca_hc_change_management</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 09:46:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4891de9474f39105021cc88f36d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1132366_healthca_hc_change_management</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b4891de9474f39105021cc88f36d437c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 09:46:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Service Operations Workspace" name="sow">f5c0a49877413010dc2c885d9f5a999e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

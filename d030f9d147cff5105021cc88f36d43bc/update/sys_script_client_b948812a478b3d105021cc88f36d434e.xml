@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>HC validate Imaging Equipment Issue Details field before submitting if category is imaging equipment&#13;
+</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HC Validate Imaging Eq Issue Details</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    var deviceCategory = g_form.getValue('incident_category');
+	
+	if(deviceCategory=="HC Imaging Equipment"){
+		if(g_form.getValue("imaging_equipment_issue_details")==""){
+		g_form.setVisible("imaging_equipment_issue_details",true);
+		g_form.setMandatory("imaging_equipment_issue_details",true)
+		g_form.addErrorMessage("Provide Details of Imaging Equipment Issues");
+		return false;
+		}else{
+			return true;
+		}
+	}else{
+		g_form.setVisible("imaging_equipment_issue_details",false);
+		g_form.setMandatory("imaging_equipment_issue_details",false);
+	}
+	
+	return true;
+
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 11:14:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b948812a478b3d105021cc88f36d434e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>HC Validate Imaging Eq Issue Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_script_client_b948812a478b3d105021cc88f36d434e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 08:30:19</sys_updated_on>
+        <table>x_1132366_healthca_hc_incident_management</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

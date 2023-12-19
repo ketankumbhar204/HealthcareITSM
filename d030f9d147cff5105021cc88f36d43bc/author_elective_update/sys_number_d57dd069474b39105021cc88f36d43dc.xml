@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1132366_healthca_healthcare_incident">x_1132366_healthca_healthcare_incident</category>
+        <maximum_digits>9</maximum_digits>
+        <number>1000</number>
+        <prefix>HCINC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:24:29</sys_created_on>
+        <sys_id>d57dd069474b39105021cc88f36d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HCINC</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_number_d57dd069474b39105021cc88f36d43dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:24:29</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_number_d57dd069474b39105021cc88f36d43dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1132366_healthca_healthcare_incident">x_1132366_healthca_healthcare_incident</category><maximum_digits>9</maximum_digits><number>1000</number><prefix>HCINC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:24:29</sys_created_on><sys_id>d57dd069474b39105021cc88f36d43dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HCINC</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_number_d57dd069474b39105021cc88f36d43dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:24:29</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>411071198</payload_hash>
+        <record_name>HCINC</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:24:29</sys_created_on>
+        <sys_id>197dd069474b39105021cc88f36d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57557d670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:24:29</sys_updated_on>
+        <type>Number</type>
+        <update_guid>5d7dd0696b4b3910f90eeb5f249fa1f0</update_guid>
+        <update_guid_history>5d7dd0696b4b3910f90eeb5f249fa1f0:411071198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:53:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>6341eb5bc0b04ef294db1a3d34c6a1a4</sys_id>
+        <sys_metadata>d57dd069474b39105021cc88f36d43dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HCINC</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent display_value="">45711c2d470b39105021cc88f36d43a1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_number_d57dd069474b39105021cc88f36d43dc</sys_update_name>
+        <sys_update_version display_value="sys_number_d57dd069474b39105021cc88f36d43dc">197dd069474b39105021cc88f36d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:53:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

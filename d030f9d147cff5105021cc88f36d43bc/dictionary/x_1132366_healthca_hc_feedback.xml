@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="bd11e1e1478f39105021cc88f36d430d" label="HC Feedback" max_length="40" name="x_1132366_healthca_hc_feedback" type="collection">
+        <element label="Feedback Commnets" max_length="200" name="feedback_commnets" type="translated_text"/>
+        <element display="true" label="Incident Number" max_length="32" name="incident_number" reference="x_1132366_healthca_hc_incident_management" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

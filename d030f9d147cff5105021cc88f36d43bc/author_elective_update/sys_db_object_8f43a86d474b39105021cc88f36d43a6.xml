@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Healthcare Incident</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_1132366_healthca_healthcare_incident</name>
+        <number_ref display_value="HCINC">8534a821478b39105021cc88f36d43e4</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">9e5a170bb4232110320f8dc279c804ec</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:53:57</sys_created_on>
+        <sys_id>8f43a86d474b39105021cc88f36d43a6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Healthcare Incident</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_db_object_8f43a86d474b39105021cc88f36d43a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 06:18:01</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_1132366_healthca.healthcare_incident_user" name="x_1132366_healthca.healthcare_incident_user">379054e9470b39105021cc88f36d434e</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_db_object_8f43a86d474b39105021cc88f36d43a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Healthcare Incident</label><live_feed_enabled>true</live_feed_enabled><name>x_1132366_healthca_healthcare_incident</name><number_ref display_value="HCINC">8534a821478b39105021cc88f36d43e4</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Task" name="task">9e5a170bb4232110320f8dc279c804ec</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:53:57</sys_created_on><sys_id>8f43a86d474b39105021cc88f36d43a6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Healthcare Incident</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_db_object_8f43a86d474b39105021cc88f36d43a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 06:18:01</sys_updated_on><update_access>true</update_access><user_role display_value="x_1132366_healthca.healthcare_incident_user" name="x_1132366_healthca.healthcare_incident_user">379054e9470b39105021cc88f36d434e</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-333768677</payload_hash>
+        <record_name>Healthcare Incident</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 06:18:02</sys_created_on>
+        <sys_id>e9b9e4a5478b39105021cc88f36d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5786820a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 06:18:02</sys_updated_on>
+        <type>Table</type>
+        <update_guid>e1b9e4a54b8b3910d7cb5e426823b70e</update_guid>
+        <update_guid_history>e1b9e4a54b8b3910d7cb5e426823b70e:-333768677,5c89a0a5a48b3910668c7b4cf999e2ef:-1245520429,0d34a821828b3910bfb9fbfbafb082e8:-333768677,8134a821b48b391090caf1b9fb339fe3:-1642464565</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 06:22:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>5466c134ac88435c9c109a7252c55404</sys_id>
+        <sys_metadata>8f43a86d474b39105021cc88f36d43a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Healthcare Incident</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_db_object_8f43a86d474b39105021cc88f36d43a6</sys_update_name>
+        <sys_update_version display_value="sys_db_object_8f43a86d474b39105021cc88f36d43a6">e9b9e4a5478b39105021cc88f36d430e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 06:22:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

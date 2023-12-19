@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Healthcare Incidents</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1132366_healthca.healthcare_incident_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:24:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>897dd069474b39105021cc88f36d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Healthcare Incidents</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_ui_module_897dd069474b39105021cc88f36d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:24:28</sys_updated_on>
+        <table>x_1132366_healthca_healthcare_incident</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_ui_module_897dd069474b39105021cc88f36d4374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Healthcare Incidents</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1132366_healthca.healthcare_incident_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:24:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>897dd069474b39105021cc88f36d4374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Healthcare Incidents</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_ui_module_897dd069474b39105021cc88f36d4374</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:24:28</sys_updated_on><table>x_1132366_healthca_healthcare_incident</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-383468073</payload_hash>
+        <record_name>Healthcare Incidents</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:38:20</sys_created_on>
+        <sys_id>84a0e82d474b39105021cc88f36d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57622a7b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:38:20</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cd7dd0691f4b39103a14e613c0456b75</update_guid>
+        <update_guid_history>cd7dd0691f4b39103a14e613c0456b75:427571159,cd7dd0691f4b39103a14e613c0456b75:427571159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:38:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>318f4b1cdfd74ab4a09113b5270183a9</sys_id>
+        <sys_metadata>897dd069474b39105021cc88f36d4374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Healthcare Incidents</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_897dd069474b39105021cc88f36d4374</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_897dd069474b39105021cc88f36d4374">84a0e82d474b39105021cc88f36d4367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:38:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

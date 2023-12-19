@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="c8f22565478f39105021cc88f36d43c1" label="HC Duplicate Detection" max_length="40" name="x_1132366_healthca_hc_duplicate_detection" type="collection">
+        <element label="Duplicate Incident" max_length="32" name="duplicate_incident" reference="x_1132366_healthca_hc_incident_management" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Original Incident" max_length="32" name="original_incident" reference="x_1132366_healthca_hc_incident_management" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="duplicate_incident"/>
+        </index>
+        <index name="index2">
+            <element name="original_incident"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

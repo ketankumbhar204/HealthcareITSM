@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1132366_healthca_healthcare_incident" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>c59d5ce5474b39105021cc88f36d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>4d9d5ce5474b39105021cc88f36d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>cd9d5ce5474b39105021cc88f36d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>419d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>impact</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>c19d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>incident_type</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>459d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>medical_device_id</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>c59d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>patient_id</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>499d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>c99d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reporter</element>
+            <list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_id>4d9d5ce5474b39105021cc88f36d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1132366_healthca_healthcare_incident</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c59d5ce5474b39105021cc88f36d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1132366_healthca_healthcare_incident</sys_name>
+            <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+            <sys_update_name>sys_ui_list_x_1132366_healthca_healthcare_incident_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</application>
+        <file_path/>
+        <instance_id>5b92b60adb6bc99c42b321c4059619e5</instance_id>
+        <instance_name>dev128263</instance_name>
+        <name>sys_ui_list_x_1132366_healthca_healthcare_incident_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1132366_healthca_healthcare_incident" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>c59d5ce5474b39105021cc88f36d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>4d9d5ce5474b39105021cc88f36d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assignment_group</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>cd9d5ce5474b39105021cc88f36d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>description</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>419d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>impact</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>c19d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>incident_type</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>459d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>medical_device_id</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>c59d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>patient_id</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>499d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>priority</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>c99d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>reporter</element><list_id display_value="x_1132366_healthca_healthcare_incident" element="NULL" name="x_1132366_healthca_healthcare_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c59d5ce5474b39105021cc88f36d4317</list_id><max_value>false</max_value><min_value>false</min_value><position>9</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_id>4d9d5ce5474b39105021cc88f36d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1132366_healthca_healthcare_incident</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 05:25:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c59d5ce5474b39105021cc88f36d4317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1132366_healthca_healthcare_incident</sys_name><sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope><sys_update_name>sys_ui_list_x_1132366_healthca_healthcare_incident_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 05:25:01</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1297093010</payload_hash>
+        <record_name>Healthcare Incident</record_name>
+        <reverted_from/>
+        <source>d3ffc8e9470b39105021cc88f36d4304</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:25:01</sys_created_on>
+        <sys_id>cd9dd469474b39105021cc88f36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5755f9d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:25:01</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>8d9dd4698e4b3910042b38a3f1b4d164</update_guid>
+        <update_guid_history>8d9dd4698e4b3910042b38a3f1b4d164:-1297093010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 05:53:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>080c5e45ad4242868259b73da1b54181</sys_id>
+        <sys_metadata>c59d5ce5474b39105021cc88f36d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1132366_healthca_healthcare_incident</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_parent display_value="">45711c2d470b39105021cc88f36d43a1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_scope_delete display_value="">052981d767c84daa8166260b1b096ba4</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1132366_healthca_healthcare_incident_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1132366_healthca_healthcare_incident_null">cd9dd469474b39105021cc88f36d4364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:53:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

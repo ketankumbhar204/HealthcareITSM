@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="02189d69474f39105021cc88f36d43b3" extends="change_request" max_length="40" name="x_1132366_healthca_hc_change_management" type="collection">
+        <element label="Change Title" max_length="40" name="change_title" type="string"/>
+        <element label="Emergency Change" max_length="40" name="emergency_change" type="boolean"/>
+        <element label="Incident Linked" max_length="32" name="incident_linked" reference="x_1132366_healthca_hc_incident_management" type="reference"/>
+        <element label="Medical Device Affected" max_length="32" name="medical_device_affected" reference="x_1132366_healthca_medical_devices" type="reference"/>
+    </element>
+</database>

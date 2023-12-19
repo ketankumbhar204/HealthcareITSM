@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Training Programs Item Stream">5fb1f95547cff5105021cc88f36d43ca</item_stream>
+        <master_item display_value="Training Programs master_item">d7b1f95547cff5105021cc88f36d43cb</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 16:54:14</sys_created_on>
+        <sys_id>1fb1f95547cff5105021cc88f36d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_1fb1f95547cff5105021cc88f36d43cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 16:54:14</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

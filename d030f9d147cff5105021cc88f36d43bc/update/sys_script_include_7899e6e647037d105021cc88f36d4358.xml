@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1132366_healthca.hcSendEmailDemo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>hcSendEmailDemo</name>
+        <script><![CDATA[var hcSendEmailDemo = Class.create();
+hcSendEmailDemo.prototype = {
+    initialize: function() {
+    },
+
+	sendEmail: function(receiverId){
+		// gs.addInfoMessage("This info msg is from script include : hcSendEmailDemo");
+		// gs.info("This info msg is from script include : hcSendEmailDemo");
+		// gs.addInfoMessage("receiver : "+receiverId);
+		// gs.info("receiver : "+receiverId);
+
+
+		if(receiverId){
+			var gr=new GlideRecord('sys_user');
+			
+			gr.addQuery('sys_id',receiverId);
+			gr.query();
+
+			if(gr.next()){
+				try{
+var receiverEmail=gr.getValue('email');
+
+				// gs.addInfoMessage("Email : "+receiverEmail);
+
+				var email = new GlideEmailOutbound();
+				email.setFrom("ketan@example.com");
+				email.addTo(receiverEmail);
+						
+				email.setSubject("Demo email subject");
+				email.setBody("Demo email body");
+				email.send();
+				gs.addInfoMessage("Email Sent successfully");
+
+				}catch(e){
+
+					// gs.addErrorMessage("Cant send an email : Error -"+e);
+				}
+				
+
+			}else{
+				// gs.addErrorMessage("User not found. Cant send email");
+			}
+
+			
+
+
+		}
+
+	},
+
+    type: 'hcSendEmailDemo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 18:10:58</sys_created_on>
+        <sys_id>7899e6e647037d105021cc88f36d4358</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>hcSendEmailDemo</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_script_include_7899e6e647037d105021cc88f36d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 04:30:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

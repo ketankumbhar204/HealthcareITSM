@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="1583a5a5478f39105021cc88f36d4313" label="HC Verification" max_length="40" name="x_1132366_healthca_hc_verification" type="collection">
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_1132366_healthca_hc_incident_management" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Verification Status" max_length="40" name="verification_status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

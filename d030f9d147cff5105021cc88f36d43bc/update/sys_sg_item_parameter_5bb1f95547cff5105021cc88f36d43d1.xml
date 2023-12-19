@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Training Programs sys_id</name>
+        <parent>17b1f95547cff5105021cc88f36d43d1</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 16:54:14</sys_created_on>
+        <sys_id>5bb1f95547cff5105021cc88f36d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training Programs sys_id</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_5bb1f95547cff5105021cc88f36d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 16:54:14</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

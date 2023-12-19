@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="716009ad47cb39105021cc88f36d4399" extends="task" label="HC Incident Management" max_length="40" name="x_1132366_healthca_hc_incident_management" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Battery Issue Details" max_length="100" name="battery_issue_details" type="string"/>
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Capture Issues Details" max_length="100" name="data_capture_issues_details" type="string"/>
+        <element label="Feedback Received" max_length="40" name="feedback_received" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Heart Rate Discrepancy Details" max_length="100" name="heart_rate_discrepancy_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Imaging Equipment Issue Details" max_length="100" name="imaging_equipment_issue_details" type="string"/>
+        <element choice="1" label="Category" max_length="40" name="incident_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HC Monitoring Equipment" sequence="0" value="HC Monitoring Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Monitoring Equipment" sequence="0" value="Monitoring Equipment"/>
+                <element inactive_on_update="false" label="HC Infusion Device" sequence="1" value="HC Infusion Device"/>
+                <element inactive="true" inactive_on_update="true" label="Infusion Device" sequence="1" value="Infusion Device"/>
+                <element inactive_on_update="false" label="HC Imaging Equipment" sequence="2" value="HC Imaging Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Imaging Equipment" sequence="2" value="Imaging Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Cardiac Equipment" sequence="3" value="Cardiac Equipment"/>
+                <element inactive_on_update="false" label="HC Cardiac Equipment" sequence="3" value="HC Cardiac Equipment"/>
+                <element inactive_on_update="false" label="HC Respiratory Equipment" sequence="4" value="HC Respiratory Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Respiratory Equipment" sequence="4" value="Respiratory Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Diagnostic Equipment" sequence="5" value="Diagnostic Equipment"/>
+                <element inactive_on_update="false" label="HC Diagnostic Equipment" sequence="5" value="HC Diagnostic Equipment"/>
+                <element inactive_on_update="false" label="HC Surgical Equipment" sequence="6" value="HC Surgical Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Surgical Equipment" sequence="6" value="Surgical Equipment"/>
+                <element inactive_on_update="false" label="HC Health Information Technology (HIT)" sequence="7" value="HC Health Information Technology (HIT)"/>
+                <element inactive="true" inactive_on_update="true" label="Health Information Technology (HIT)" sequence="7" value="Health Information Technology (HIT)"/>
+                <element inactive_on_update="false" label="HC Mobility Aids" sequence="8" value="HC Mobility Aids"/>
+                <element inactive="true" inactive_on_update="true" label="IT Equipment" sequence="8" value="IT Equipment"/>
+                <element inactive_on_update="false" label="HC IT Equipment" sequence="9" value="HC IT Equipment"/>
+                <element inactive="true" inactive_on_update="true" label="Mobility Aids" sequence="9" value="Mobility Aids"/>
+            </choice>
+        </element>
+        <element label="Incident Priority Score" max_length="40" name="incident_priority_score" type="integer"/>
+        <element label="Incident Training Follow-up" max_length="40" name="incident_training_follow_up" type="boolean"/>
+        <element label="Medical Device" max_length="32" name="medical_device" reference="x_1132366_healthca_medical_devices" type="reference"/>
+        <element label="Resolution Notes" max_length="40" name="resolution_notes" type="translated_text"/>
+        <element choice="1" label="Subcategory" max_length="40" name="subcategory" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Airflow or Pressure Problems" sequence="0" value="Airflow or Pressure Problems"/>
+                <element inactive="true" inactive_on_update="true" label="Battery or Power Failures" sequence="0" value="Battery or Power Failures"/>
+                <element inactive_on_update="false" label="Alarms for Oxygen Levels" sequence="1" value="Alarms for Oxygen Levels"/>
+                <element inactive="true" inactive_on_update="true" label="Battery Issues" sequence="1" value="Battery Issues"/>
+                <element inactive_on_update="false" label="Alarm Notifications" sequence="2" value="Alarm Notifications"/>
+                <element inactive_on_update="false" label="Battery or Power Issues" sequence="3" value="Battery or Power Issues"/>
+                <element inactive_on_update="false" label="Beam Alignment Problems" sequence="4" value="Beam Alignment Problems"/>
+                <element inactive_on_update="false" label="Calibration Problems" sequence="5" value="Calibration Problems"/>
+                <element inactive_on_update="false" label="Connection Issues" sequence="6" value="Connection Issues"/>
+                <element inactive_on_update="false" label="Connection Problems" sequence="7" value="Connection Problems"/>
+                <element inactive_on_update="false" label="Cooling System Failures" sequence="8" value="Cooling System Failures"/>
+                <element inactive_on_update="false" label="Data Entry Errors" sequence="9" value="Data Entry Errors"/>
+                <element inactive_on_update="false" label="Device Malfunction" sequence="10" value="Device Malfunction"/>
+                <element inactive_on_update="false" label="Data Accuracy Concerns" sequence="11" value="Data Accuracy Concerns"/>
+                <element inactive_on_update="false" label="Electrode Connection Problems" sequence="12" value="Electrode Connection Problems"/>
+                <element inactive_on_update="false" label="Failure to Deliver Shock" sequence="13" value="Failure to Deliver Shock"/>
+                <element inactive_on_update="false" label="Flow Rate Irregularities" sequence="14" value="Flow Rate Irregularities"/>
+                <element inactive_on_update="false" label="Hardware Malfunction" sequence="15" value="Hardware Malfunction"/>
+                <element inactive_on_update="false" label="Image Quality Issues" sequence="16" value="Image Quality Issues"/>
+                <element inactive_on_update="false" label="Inaccurate ECG Readings" sequence="17" value="Inaccurate ECG Readings"/>
+                <element inactive_on_update="false" label="Integration Problems with Other Systems" sequence="18" value="Integration Problems with Other Systems"/>
+                <element inactive_on_update="false" label="Incorrect Readings" sequence="19" value="Incorrect Readings"/>
+                <element inactive_on_update="false" label="Login or Access Issues" sequence="20" value="Login or Access Issues"/>
+                <element inactive_on_update="false" label="Mechanical Failures" sequence="21" value="Mechanical Failures"/>
+                <element inactive_on_update="false" label="Medication Administration Errors" sequence="22" value="Medication Administration Errors"/>
+                <element inactive_on_update="false" label="Occlusion Alarms" sequence="23" value="Occlusion Alarms"/>
+                <element inactive_on_update="false" label="Power Fluctuations" sequence="24" value="Power Fluctuations"/>
+                <element inactive_on_update="false" label="Radiation Exposure Concerns" sequence="25" value="Radiation Exposure Concerns"/>
+                <element inactive_on_update="false" label="Safety Interlock Issues" sequence="26" value="Safety Interlock Issues"/>
+                <element inactive_on_update="false" label="Software Issues" sequence="27" value="Software Issues"/>
+                <element inactive_on_update="false" label="Software Errors" sequence="28" value="Software Errors"/>
+                <element inactive_on_update="false" label="Sudden Shutdowns" sequence="29" value="Sudden Shutdowns"/>
+                <element inactive_on_update="false" label="System Downtime" sequence="30" value="System Downtime"/>
+                <element inactive_on_update="false" label="User Interface Errors" sequence="31" value="User Interface Errors"/>
+                <element inactive_on_update="false" label="Ventilation Settings Issues" sequence="32" value="Ventilation Settings Issues"/>
+                <element inactive_on_update="false" label="Other" sequence="33" value="Other"/>
+            </choice>
+        </element>
+    </element>
+</database>

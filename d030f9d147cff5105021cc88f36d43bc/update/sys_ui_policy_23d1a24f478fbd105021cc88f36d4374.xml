@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1132366_healthca_hc_incident_management">medical_device=6413f34e4747f9105021cc88f36d4327^EQ<item display_table="x_1132366_healthca_medical_devices" display_value="MED0001021" endquery="false" field="medical_device" goto="false" newquery="false" operator="=" or="false" value="6413f34e4747f9105021cc88f36d4327"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+	g_form.setMandatory('data_capture_issues_details',false);
+	g_form.setVisible('data_capture_issues_details',false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setVisible('data_capture_issues_details',true);
+	g_form.setMandatory('data_capture_issues_details',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>HC Make  Data Capture Issues Details field visible if device selected is HC Electronic Health Record (EHR) System</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-16 07:00:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>23d1a24f478fbd105021cc88f36d4374</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HC Make  Data Capture Issues Details field visible if device selected is HC Electronic Health Record (EHR) System</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1132366_healthca">d030f9d147cff5105021cc88f36d43bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">d030f9d147cff5105021cc88f36d43bc</sys_scope>
+        <sys_update_name>sys_ui_policy_23d1a24f478fbd105021cc88f36d4374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-16 09:56:15</sys_updated_on>
+        <table>x_1132366_healthca_hc_incident_management</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

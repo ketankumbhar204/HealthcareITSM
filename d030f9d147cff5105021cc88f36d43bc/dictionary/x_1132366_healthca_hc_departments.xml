@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fcfa35a947cf39105021cc88f36d437c" label="HC Departments" max_length="40" name="x_1132366_healthca_hc_departments" type="collection">
+        <element label="Biomedical Engineering Roles" max_length="32" name="biomedical_engineering_roles" reference="sys_user_role" type="reference"/>
+        <element label="Data Analysis Roles" max_length="32" name="data_analysis_roles" reference="sys_user_role" type="reference"/>
+        <element label="Department Name" max_length="100" name="department_name" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="translated_text"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Support Team Lead" max_length="32" name="support_team_lead" reference="sys_user" type="reference"/>
+        <element label="Technical Support Roles" max_length="32" name="technical_support_roles" reference="sys_user_role" type="reference"/>
+        <element label="Users" max_length="32" name="users" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="biomedical_engineering_roles"/>
+        </index>
+        <index name="index2">
+            <element name="data_analysis_roles"/>
+        </index>
+        <index name="index3">
+            <element name="manager"/>
+        </index>
+        <index name="index4">
+            <element name="support_team_lead"/>
+        </index>
+        <index name="index5">
+            <element name="technical_support_roles"/>
+        </index>
+        <index name="index6">
+            <element name="users"/>
+        </index>
+    </element>
+</database>
